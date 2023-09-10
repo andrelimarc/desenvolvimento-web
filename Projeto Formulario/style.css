@@ -1,0 +1,111 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 200px;
+  
+   
+}
+header{
+    display: flex;
+    width: 100%;
+    height: 120px;
+    justify-content: center;
+    font-size: 26px;
+    background-color: yellow;
+}
+.container{
+
+display: flex;
+background-color: gray;
+height: 70vh;
+align-items: center;
+width: 100%;
+justify-content: space-around;
+
+padding-top: 90px;
+
+
+}
+
+
+.logo{
+
+display: flex;
+position: absolute;
+top: 24.33%;
+
+
+}
+.logo img{
+
+
+  width: 180px;
+  border-radius: 50%;
+  height: 140px;
+  overflow: hidden;
+}
+
+
+.formulario1{
+    display: flex;
+ 
+ 
+
+
+}
+
+
+
+
+
+.formulario1 .form1{
+    flex: 1;
+   
+}
+.formulario2 .form2{
+    flex: 1;
+  
+}
+
+
+.formulario1 .form1 form{
+    display: flex;
+    flex-direction: column;
+    width: 74vh;
+
+
+}
+
+.formulario1 .form1 input {
+
+padding: 1.3rem;
+margin: 0.4rem;
+border-radius: 100px;
+overflow: hidden;
+border-style: none;
+
+
+}
+
+.formulario2 .form2 form{
+    display: flex;
+    flex-direction: column;
+  
+   
+}
+.formulario2 .form2 input{
+    display: flex;
+   width: 40vh;
+   padding: 1.4rem;
+   margin: 0.4rem;
+  border-radius: 100px;
+  border-style: none;
+   
+}
+.data{
+
+
+
+
+}

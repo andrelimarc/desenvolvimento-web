@@ -1,0 +1,715 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+article a {
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 120px;
+
+}
+
+.container {
+    display: flex;
+    width: 990px;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav a {
+
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39aae1;
+    color: #ffffff;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url(./img1.jpg);
+    background-position: center;
+    background-size: cover;
+    /*  quer dizerr que dependendo do monitor e da tela a tela ira reduzir de acordo com a */
+    height: 670px;
+
+}
+
+.column {
+    flex-direction: column;
+}
+
+.banner_headline {
+    flex: 1;
+    /* lembrando, flex trabalha com responsividade ou seja, ele preenche todo o resto conforme a largura e altura do dispositivo. */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* lembrando, vc precisa desses 3 comandos se vc quiser colocar algo centralizado de acordo com a area dele, no caso vc definiu a area dele pelo o flex 1, ou seja, ele vai preencher toda a area que falta que o outro amiguinho dele do lado n preencheu responsivamente. Flex tbm é seu amigo. */
+
+}
+
+.banner_headline h1 {
+    color: #ffffff;
+    font-size: 70px;
+    text-shadow: 2px 2px 0px #555;
+    margin: 0px;
+    padding: 0px;
+    max-width: 350px;
+    /* ou seja, depois de 350px não vai ser mais definido vai alargar. */
+}
+
+.banner_headline h2 {
+
+    color: #ffffff;
+    max-width: 360px;
+    text-shadow: 2px 2px 0px #555;
+
+}
+
+
+
+
+.banner_options {
+    height: 210px;
+    background-color: green;
+    display: flex;
+    /* coloquei o flex para ficar lado a lado. */
+
+}
+
+.banner_options h2 {
+    color: #ffffff;
+    font-size: 21px;
+    text-shadow: 0px 1px 0px #555;
+    margin: 0px;
+    padding: 0px;
+    /* sempre retirar os padding e a margin de algo desse tipo. justamente pq h1 e h2 ja vem com espaços predefinidos e isso atrapalha na hora de organizar */
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+
+}
+
+.banner1 {
+    background-color: #39aae1;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.banner_title {
+    font-size: 21px;
+}
+
+.banner_desc {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    /* o display block te permite editar ele por completo, mas no caso aqui como eu quero que a borda acompanhe o tamanho do texto o ideal é usar o inline-block, obs: o inline-block tbm te permite editar e deixa lado a lado, porem com algumas limitações que esqueci agora */
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+
+
+}
+
+
+
+.banner_header {
+    display: flex;
+    margin-top: 20px;
+    height: 79%;
+    width: 100%;
+
+
+}
+
+.banner_monday {
+    margin-top: -10px;
+    flex: 1;
+    padding: 10px;
+
+
+}
+
+.banner_saturday {
+    flex: 1;
+    padding: 10px;
+}
+
+.banner_sunday {
+    flex: 1;
+    padding: 10px;
+
+}
+
+.space {
+
+    border-bottom: solid 2px #39aae1;
+}
+
+.hours_monday, .hours_saturday, .hours_sunday {
+    display: flex;
+    justify-content: end;
+    height: 100%;
+    margin-top: -30px;
+
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+
+#geral aside {
+    flex: 1;
+}
+
+.widget_title {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.widget_title_text {
+    color: #000;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.widget_title_bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36aae1;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+.rec_avo {
+
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+
+}
+
+
+
+.rec_pai {
+    flex: 1;
+    display: flex;
+
+
+
+
+
+}
+
+.rec_pai2 {
+    flex: 1;
+    display: flex;
+
+
+
+}
+
+
+.rec {
+
+
+    background-color: #36aae1;
+    height: 110px;
+    width: 110px;
+    margin: 15px;
+
+
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    /* o tamanho minimo da imagem é 300px, ou seja se passar disso ele vai pular uma linha, pois deixei essa função ativada aqui */
+    margin-right: 20px;
+}
+
+article .news_data {
+
+    display: flex;
+}
+
+article .news_posted_at {
+
+    background-color: #2b4c99;
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+
+}
+
+article .news_comments {
+    background-color: #39aae1;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 12px;
+
+}
+
+article .news_imagem {
+    margin-top: 30px;
+}
+
+
+
+article .news_imagem img {
+
+    width: 100%;
+    height: auto;
+    /* esta responsivo. a altura da foto vai se adaptar e a largura tbm */
+}
+
+article .news_title {
+
+    font-size: 23px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000;
+}
+
+article .news_resume {
+    color: #5c5c5c;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 40px;
+
+}
+
+.widget_desc {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a8a6a6;
+    width: 100%;
+}
+
+.widget_desc1 {
+
+    padding-bottom: 20px;
+    border-bottom: 1px solid #a8a6a6;
+    width: 100%;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer_menu {
+    display: flex;
+    flex: 1;
+    /* aqui tem flex 1 pq nao foi dada limite da largura, com flex 1 ele tem largura 100% pra ele */
+
+}
+
+.fm_1,
+.fm_2,
+.fm_3 {
+    flex: 1;
+    color: #ffffff;
+
+}
+
+
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #ffffff;
+}
+
+
+.fm_1 {
+    background-color: #39aae1;
+}
+
+.fm_2 {
+    background-color: #0079c7;
+}
+
+.fm_3 {
+    background-color: #2b4c99;
+}
+
+.footer_area {
+    display: flex;
+    color: #ffffff;
+}
+
+.footer_areaitem {
+    flex: 1;
+}
+
+footer .widget_title_text {
+    color: #ffffff;
+}
+
+.footer_copy {
+    display: flex;
+    flex-direction: column;
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    margin-top: 30px;
+    font-size: 12px;
+}
+
+.fm_1 p,
+.fm_2 p,
+.fm_3 p {
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    font-size: 13px;
+
+}
+
+.fm_1 h2,
+.fm_2 h2,
+.fm_3 h2 {
+    margin: 0px;
+    padding: 0px;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.footerdescrip {
+    font-size: 12px;
+    max-width: 260px;
+    color: #727272;
+    margin-bottom: 30px;
+}
+
+.footerdescrip p {
+    color: #ffffff;
+}
+
+.paidoslados {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    justify-content: space-between;
+
+
+
+
+}
+
+
+
+.ladodireito {
+
+    display: block;
+    margin-top: -57px;
+    margin-left: 160px;
+
+}
+
+
+
+
+.ladoesquerdo p {
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+    color: #727272;
+}
+
+.ladodireito p {
+    margin: 0;
+    padding: 0;
+    line-height: 19px;
+    color: #727272;
+}
+
+.ladodireito p a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.fiveyears {
+
+    color: #36aae1;
+    margin: 0;
+    padding: 0;
+    margin-top: 28px;
+    margin-bottom: -12px;
+    font-size: 11px;
+
+}
+
+.footerdescrip p {
+
+    padding: 0;
+    margin-bottom: -25px;
+    line-height: 19px;
+}
+
+.footerdescriptextlatest {
+
+    width: 320px;
+    line-height: 19px;
+
+
+
+}
+
+.footerdescriptextlatest a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.foryears{
+
+    color: #36aae1;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: -12px;
+    font-size: 11px;
+
+
+}
+
+.menumobile{
+    display: none;
+    width: 40px;
+    height: 40px;
+  
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+.mm_line{
+    height: 3px;
+    background-color: #39aae1;
+}
+
+
+@media (max-width:800px) {
+
+.menumobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+
+.banner_headline h1{
+    font-size: 55px;
+    margin-left: -30px;
+}
+.banner_headline h2{
+    margin-top: 30px;
+    font-size: 17px;
+    margin-left: -30px;
+}
+
+.banner_headline{
+
+padding: 60px;
+
+}
+
+
+
+
+
+.banner_options{
+height: auto;
+flex-direction: column;
+
+
+}
+
+.banner_header{
+    font-size: 13px;
+ padding-bottom: 60px;
+}
+
+
+.banner_saturday{
+    margin-top: -20px;
+}
+
+.hours_monday{
+
+padding-top: 7px;
+
+
+}
+
+
+.hours_saturday{
+padding-top: 5px;
+   
+}
+
+.hours_sunday{
+padding-top: 5px;
+   
+}
+
+
+
+.banner_sunday{
+  
+  margin-top: -20px;
+
+  
+}
+
+
+
+
+
+
+.space{
+    border-bottom: 1px solid #39aae1;
+ 
+   
+
+}
+
+
+
+
+
+.container{
+    flex-direction: column;
+
+}
+#geral section, #geral aside {
+
+    padding: 20px;
+  
+}
+
+#geral section {
+    padding-top: 110px;
+}
+
+
+.footer_menu{
+    flex-direction: column;
+}
+.footer_area{
+    flex-direction: column;
+    padding: 20px;
+}
+.footer_copy{
+    padding: 20px;
+}
+
+header .container {
+    flex-direction: row;
+}
+
+nav ul {
+    flex-direction: column;
+    display: none;
+    /* ta displau none justamente para nao aparecer os 5 home em coluna. e no JS ele vai desativar e ai sim vai aparecer*/
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+header{
+    height: auto;
+}
+
+.logo{
+    padding-left: 20px;
+}
+
+
+}

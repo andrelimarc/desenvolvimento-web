@@ -1,0 +1,94 @@
+1- aula do projeto, ele disse que sempre o layout de um site é feito de cima pra baixo e da esquerda para direita
+*esquerda para direita*
+
+ele também disse que todo site ele tem que respeitar a limitação, ou seja, onde tem informação tem uma area ali evitando que junte as duas coisas, onde estiver, sempre havera uma area separando.
+No Windows: Shift + Alt + F para formatar codigo
+
+
+é bom sempre perceber onde é coluna e onde é row. pois voce pode querer colocar coluna na aquilo atraves da class.
+
+
+TODO PROBLEMA TEM UM CHEFE E UM CHEFÃO. O QUE EU QUERO DIZER? POR EXEMPLO NA LINHA 129 DO NOSSO PROJETO (WIDGET) PODEMOS PERCEBER QUE ELE CRIOU O WIDGET E DEPOIS DENTRO DESSE WIDGET CRIOU O WIDGET_TITLE
+O QUE VOCE CONSEGUE VER? BOM, O WIDGET É O CHEFÃO E O CHEFÃO BOTOU UM OUTRO CHEFE PARA RESOLVER SEUS PROBLEMAS, UM ''GERENTE'' E ESSE CHEFE BOTOU DOIS FUNCIONARIOS E CADA FUNCIONARIO COM SUA DETERMINADA FUNÇÃO, POR EXEMPLO, UM FUNCIONARIO VAI CUIDAR DO TEXTO E OUTRO FUNCIONARIO VAI CUIDAR DA BARRA EMBAIXO, LEMBRANDO QUE O CHEFE E O CHEFÃO TAMBÉM TRABALHAM. E OUTRA, ELES TEM POLITICA, ELES SEGUEM AS DOUTRINAS DO CHEFAO, LOGO O CHEFE SÓ PODE SEGUIR A MESMA COISA QUE O CHEFÃO SEGUE, DEPENDENDO DO CHEFÃO, DEPENDE TODO O RESTO DO PROCESSO.
+
+
+
+
+<footer>
+        <div class="container flexcolumn">
+
+            <div class="footer_menu">
+                <div class="fm_1">...</div>
+                <div class="fm_2">...</div>
+                <div class="fm_3">...</div>
+
+            </div>
+
+            <div class="footer_area">
+
+                <div class="footer_areaitem">
+
+
+                    <div class="widget">
+
+                        <div class="widget_title">
+                            <!-- CHEFE 03 RESPONDE AO CHEFAO 2-->
+                            <div class="widget_title_text">Medicenter Clinic</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+                <div class="footer_areaitem">
+
+
+                    <div class="widget">
+
+                        <div class="widget_title">
+                            <!-- CHEFE 03 RESPONDE AO CHEFAO 2-->
+                            <div class="widget_title_text">Latest Posts</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+
+
+                    </div>
+
+                    
+                </div>
+                <div class="footer_areaitem">
+
+
+                    <div class="widget">
+
+                        <div class="widget_title">
+                            <!-- CHEFE 03 RESPONDE AO CHEFAO 2-->
+                            <div class="widget_title_text">Latest Tweets</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+
+
+                    </div>
+
+
+
+                </div>
+            </div>
+
+
+        </div>
+        <!-- se você QUER MANTER O SITE TUDO NA MESMA LINHA E ORDEM, VOCE TEM QUE FAZER E REPETIR O MESMO PROCESSO. -->
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
